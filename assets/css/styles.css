@@ -1,0 +1,34 @@
+.navbar {
+  z-index: 10;
+  top: 0;
+}
+
+.title::before {
+  content: '';
+  width: 200px;
+  height: 5px;
+  background-color: #7b1798;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(63px);
+}
+
+@media (min-width: 300px) {
+  footer {
+    height: 780px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 590px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    height: 440px;
+  }
+}
+
